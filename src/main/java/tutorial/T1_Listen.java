@@ -40,7 +40,7 @@ public class T1_Listen {
         // mit set(x, wert) kann man einen Wert an der Stelle x ersetzen
         eineListe.set(0, 13);
 
-        // ArrayList implementiert das Interface "List"
+        // ArrayList implementiert (erfüllt die Bedingung) das Interface "List"
         List zweiteVariable = eineListe;
 
         // Mit contains() kann man fragen, ob ein Wert enthalten ist

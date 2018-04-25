@@ -7,7 +7,7 @@ public class T5_ListenUndArrays {
 
     public static void main(String[] args) {
 
-        // Häufig stösst man auf Arrays, möchte aber lieber Listen haben, und umgekehrt
+        // Häufig stößt man auf Arrays, möchte aber lieber Listen haben, und umgekehrt
         String[] stringArray = new String[2];
         stringArray[0] = "Hello";
         stringArray[1] = "World";
@@ -17,7 +17,7 @@ public class T5_ListenUndArrays {
         List<String> stringList = Arrays.asList(stringArray);
         System.out.println(stringList.get(0));
 
-        // Oder anderes rum
+        // Oder anders rum
         String[] anderesArray = stringList.toArray(new String[stringList.size()]);
         System.out.println(anderesArray[0]);
 

@@ -10,6 +10,7 @@ public class T3_Map {
 
         // Eine Map (interface) ist eine Zuweisung/Tabelle
         // Am häufigsten verwendet man die Klasse "HashMap"
+        // hinzufügen mit "put"
         HashMap eineMap = new HashMap();
         eineMap.put(1, "Hello");
         eineMap.put(2, "World");
@@ -21,8 +22,8 @@ public class T3_Map {
         // über den Key kann man auf Werte zugreifen, get(key) gibt value zurück
         System.out.println(eineMap.get(1));
 
-        // Die HashMap erkennt Duplikate
-        // bei vorhandenem Key wird der Value überschrieben
+        // Die HashMap kann keine doppelten Schlüssel enthalten.
+        // bei bereits vorhandenem Key wird der Value überschrieben
         eineMap.put(1, "Hello2");
         System.out.println(eineMap);
 
@@ -34,7 +35,7 @@ public class T3_Map {
         // Auch Maps haben eine size()-Methode
         System.out.println(eineMap.size());
 
-        // Auch Maps kann an leeren
+        // Auch Maps kann man leeren
         eineMap.clear();
 
     }

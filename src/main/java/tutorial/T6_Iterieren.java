@@ -28,13 +28,13 @@ public class T6_Iterieren {
         }
 
         // dies ist aber viel zu kompliziert, daher viel einfacher
-        for (Fahrzeug f : eineListeVonFahrzeugen) {
-            System.out.println(f.getMarke());
+        for (Fahrzeug aktuellesFahrzeug : eineListeVonFahrzeugen) {
+            System.out.println(aktuellesFahrzeug.getMarke());
         }
 
-        // Während man über eine Liste itereriert, darf die Liste niht verändert wereen
+        // Während man über eine Liste itereriert, darf die Liste nicht verändert werden
         for (Fahrzeug f : eineListeVonFahrzeugen) {
-            eineListeVonFahrzeugen.add(new Fahrzeug("Opel"));
+            //eineListeVonFahrzeugen.add(new Fahrzeug("Opel"));
             System.out.println(f.getMarke());
         }
 
