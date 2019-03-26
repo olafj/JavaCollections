@@ -16,11 +16,11 @@ public class T7_Java10_Zeugs {
         var wochenTage = Map.of("mo", "Montag", "di", "Dienstag", "mi", "Mittwoch");
         System.out.println(wochenTage.get("mo"));
 
-        // einfachste For-Schleife mit Lamda
+        // einfachste For-Schleife mit Lambda
 
-        benutzerRollen.forEach(rolle -> {
-            System.out.println(rolle);
-        });
+            benutzerRollen.forEach(rolle -> {
+                System.out.println(rolle);
+            });
 
         wochenTage.forEach((key, value) -> {
             System.out.println("key=" + key + " => value=" + value);
